@@ -40,3 +40,5 @@ require (
 // - gopsutil v3.24.3: monitor for v3.24.4+ which may fix disk stat edge cases on macOS
 // - 2024-05: checked golang.org/x/crypto v0.22.0 against https://pkg.go.dev/vuln/ -- no known
 //   vulnerabilities; revisit when upstream bumps or a CVE is published against the x/ packages
+// - 2024-06: checked spf13/cobra v1.8.1 changelog -- only change is a minor shell completion
+//   fix for fish; not worth diverging from upstream until they adopt it themselves
