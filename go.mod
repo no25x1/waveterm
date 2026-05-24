@@ -38,3 +38,5 @@ require (
 // - gorilla/websocket v1.5.1 has no known CVEs as of 2024-04; recheck on next dep audit
 // - spf13/cobra v1.8.0: upstream hasn't moved to v1.8.1 yet; check for completion handler fixes
 // - gopsutil v3.24.3: monitor for v3.24.4+ which may fix disk stat edge cases on macOS
+// - 2024-05: checked golang.org/x/crypto v0.22.0 against https://pkg.go.dev/vuln/ -- no known
+//   vulnerabilities; revisit when upstream bumps or a CVE is published against the x/ packages
