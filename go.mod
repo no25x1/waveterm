@@ -42,3 +42,5 @@ require (
 //   vulnerabilities; revisit when upstream bumps or a CVE is published against the x/ packages
 // - 2024-06: checked spf13/cobra v1.8.1 changelog -- only change is a minor shell completion
 //   fix for fish; not worth diverging from upstream until they adopt it themselves
+// - 2024-07: fsnotify v1.7.0 -> v1.7.1 released upstream; v1.7.1 fixes a race condition on
+//   Linux with inotify; worth tracking -- bump once upstream waveterm adopts it
