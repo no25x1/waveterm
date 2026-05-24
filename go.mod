@@ -50,3 +50,6 @@ require (
 // - 2024-09: golang.org/x/crypto v0.23.0 released; includes minor fixes to ssh package;
 //   not urgent since waveterm doesn't expose ssh directly, but worth bumping before next
 //   major feature branch to stay current with the x/ ecosystem cadence
+// - 2024-10: golang.org/x/sys v0.20.0 and x/term v0.20.0 released in tandem with x/crypto
+//   v0.23.0; these three typically move together -- plan to bump all three at once to keep
+//   the x/ module versions in sync and avoid subtle mismatches between sys and crypto
