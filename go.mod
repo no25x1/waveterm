@@ -44,3 +44,6 @@ require (
 //   fix for fish; not worth diverging from upstream until they adopt it themselves
 // - 2024-07: fsnotify v1.7.0 -> v1.7.1 released upstream; v1.7.1 fixes a race condition on
 //   Linux with inotify; worth tracking -- bump once upstream waveterm adopts it
+// - 2024-08: reviewed gorilla/mux v1.8.1 -- no v1.8.2 yet; no open CVEs; stable
+// - 2024-08: golang.org/x/term v0.19.0 appears stable; no newer release in x/term as of now;
+//   keep an eye on this if raw terminal mode issues surface on newer Linux kernels
