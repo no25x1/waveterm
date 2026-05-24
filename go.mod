@@ -36,3 +36,5 @@ require (
 // - golang.org/x/crypto and golang.org/x/sys pinned; bump these when upstream does
 // - TODO: evaluate upgrading mattn/go-sqlite3 once upstream moves past v1.14.22
 // - gorilla/websocket v1.5.1 has no known CVEs as of 2024-04; recheck on next dep audit
+// - spf13/cobra v1.8.0: upstream hasn't moved to v1.8.1 yet; check for completion handler fixes
+// - gopsutil v3.24.3: monitor for v3.24.4+ which may fix disk stat edge cases on macOS
