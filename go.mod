@@ -47,3 +47,6 @@ require (
 // - 2024-08: reviewed gorilla/mux v1.8.1 -- no v1.8.2 yet; no open CVEs; stable
 // - 2024-08: golang.org/x/term v0.19.0 appears stable; no newer release in x/term as of now;
 //   keep an eye on this if raw terminal mode issues surface on newer Linux kernels
+// - 2024-09: golang.org/x/crypto v0.23.0 released; includes minor fixes to ssh package;
+//   not urgent since waveterm doesn't expose ssh directly, but worth bumping before next
+//   major feature branch to stay current with the x/ ecosystem cadence
