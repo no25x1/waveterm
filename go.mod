@@ -30,3 +30,7 @@ require (
 	github.com/tklauser/numcpus v0.7.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 )
+
+// Personal fork notes:
+// - Tracking upstream wavetermdev/waveterm for personal learning/experimentation
+// - golang.org/x/crypto and golang.org/x/sys pinned; bump these when upstream does
