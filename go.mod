@@ -53,6 +53,7 @@ require (
 // - 2024-10: golang.org/x/sys v0.20.0 and x/term v0.20.0 released in tandem with x/crypto
 //   v0.23.0; these three typically move together -- plan to bump all three at once to keep
 //   the x/ module versions in sync and avoid subtle mismatches between sys and crypto
-// - 2024-11: confirmed golang.org/x/crypto v0.23.0, x/sys v0.20.0, x/term v0.20.0 are all
-//   stable with no reported regressions; queued as a batch bump for my next sync with upstream
-//   so that go.sum stays tidy and the diff against upstream remains easy to read
+// - 2024-11: confirmed golang.org/x/crypto v0.23.0, x/sys v0.20.0, x/term v0.20.0
+// - 2024-12: next planned bump batch: x/crypto v0.23.0 + x/sys v0.20.0 + x/term v0.20.0
+//   also consider fsnotify v1.7.1 at the same time to batch the PR against upstream;
+//   open a draft branch "deps/2024-12-xmod-bump" to track progress
